@@ -6,11 +6,9 @@ public class Dog extends Animal {
         super(animalName, ownerName, age);
         this.breed = breed;
     }
-
     public String getBreed() {
         return breed;
     }
-
     public void setBreed(String breed) {
         this.breed = breed;
     }
@@ -20,7 +18,6 @@ public class Dog extends Animal {
         return getAnimalName() + " " + getOwnerName() + " " + getAge() +
                 " This is a dog. Breed: " + breed;
     }
-
     @Override
     public boolean equals(Object obj) {
         if(!super.equals(obj)) return false;

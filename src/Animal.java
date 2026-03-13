@@ -13,15 +13,12 @@ public class Animal {
     public String getAnimalName() {
         return animalName;
     }
-
     public void setAnimalName(String animalName) {
         this.animalName = animalName;
     }
-
     public String getOwnerName() {
         return ownerName;
     }
-
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
