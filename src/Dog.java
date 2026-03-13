@@ -23,7 +23,6 @@ public class Dog extends Animal {
         if(!super.equals(obj)) return false;
 
         Dog d = (Dog) obj;
-
         return breed.equals(d.breed);
     }
 }
